@@ -1,0 +1,1 @@
+docker run -d -p 8080:8080 --name parallel-builds-example parallel-builds:1.0 
