@@ -1,4 +1,5 @@
 #!/bin/bash
 
-mkdir -p build/front-end
-cp -r front-end/* build/front-end
+mkdir -p build
+cd front-end
+npm install && yarn build && mv build ../build/front-end
